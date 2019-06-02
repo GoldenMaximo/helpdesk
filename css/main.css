@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+html {
+  font-family: 'Nunito', sans-serif;
+  line-height: 2.5;
+}
+
+.flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.fixedFooter {
+  padding-right: 10%;
+  position: fixed;
+  bottom: 0;
+}
+
+#left-column, #right-column, #right-column nav, #right-column nav .fa-angle-double-left, #right-column nav #search {
+  -webkit-animation-timing-function: ease-in-out;
+  /* Chrome, Safari, Opera */
+  animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#left-column {
+  background-color: #f9fafc;
+  border-right: 1px solid #e7ecf1;
+  width: 250px;
+  position: fixed;
+  height: 100vh;
+}
+
+#left-column #section-1 {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7ecf1;
+}
+
+#left-column #section-1 #section-1-row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+#left-column #section-1 #section-1-row-2 p,
+#left-column #section-1 #section-1-row-2 a,
+#left-column #section-1 #section-1-row-3 p,
+#left-column #section-1 #section-1-row-3 a {
+  margin-left: 25px;
+  font-size: small;
+}
+
+#left-column #section-1 #section-1-row-2 a,
+#left-column #section-1 #section-1-row-3 a {
+  text-decoration: underline;
+  color: #3c3c3c;
+  font-weight: 600;
+}
+
+#left-column #section-1 #section-1-row-2 {
+  margin-bottom: 0px;
+}
+
+#left-column #section-1 #section-1-row-3 {
+  margin-bottom: 15px;
+}
+
+#left-column #section-1 img {
+  height: 55px;
+  margin: 9% 8%;
+}
+
+#left-column #section-1 h5 {
+  margin: 25px 0;
+}
+
+#left-column #section-2 {
+  margin-top: 10%;
+  margin-right: 25%;
+}
+
+#left-column #section-2 .list-heading {
+  color: #94949d;
+  font-size: small;
+}
+
+#left-column #section-2 li {
+  font-weight: bold;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+#left-column #section-2 li a {
+  text-decoration: none;
+  color: #3c3c3c;
+  font-size: small;
+}
+
+#right-column {
+  background-color: #ffff;
+  padding-left: 250px;
+  width: 100%;
+}
+
+#right-column nav {
+  background-color: #ffff;
+  border-bottom: 1px solid #e7ecf1;
+  position: fixed;
+  width: calc(100% - 250px);
+}
+
+#right-column nav .fa-lg {
+  color: #a9bacc;
+  cursor: pointer;
+}
+
+#right-column nav a {
+  color: #a9bacc;
+}
+
+#right-column nav .fa-search {
+  margin-right: 10px;
+}
+
+#right-column nav #search {
+  width: 0px;
+}
+
+#right-column .content {
+  padding-top: 60px;
+}
+
+#right-column .content h5 {
+  text-shadow: 0px 0px 0px #000;
+}
+
+#right-column .content p {
+  text-shadow: 0px 0px 0px #303030;
+}
+
+#right-column .content .content-section {
+  padding-bottom: 5%;
+}
+
+#right-column .content #intro {
+  margin-top: 5%;
+}
+
+#right-column .content .highlight {
+  background-color: rgba(208, 255, 0, 0.541);
+}
+
+#right-column .content .heading {
+  margin: 0% 0% 4%;
+  padding: 5px 24px;
+}
+
+#right-column .content .heading hr {
+  margin-bottom: 10%;
+}
+
+#right-column .content #helpdeskResponse #sendBtn {
+  width: 20%;
+  margin: 0 1%;
+}
+
+#footer {
+  background-color: #eaeaec;
+  width: 100%;
+}
+
+#footer h5 {
+  text-shadow: 0px 0px 0px #000;
+}
+
+#footer p {
+  text-shadow: 0px 0px 0px #303030;
+}
+
+.hideLeftColumn {
+  -webkit-animation: hideLeftColumnKeyframe .2s;
+          animation: hideLeftColumnKeyframe .2s;
+}
+
+.showLeftColumn {
+  -webkit-animation: showLeftColumnKeyframe .2s;
+          animation: showLeftColumnKeyframe .2s;
+}
+
+.expandRightColumn {
+  -webkit-animation: expandRightColumnKeyframe .2s;
+          animation: expandRightColumnKeyframe .2s;
+}
+
+.compressRightColumn {
+  -webkit-animation: compressRightColumnKeyframe .2s;
+          animation: compressRightColumnKeyframe .2s;
+}
+
+.expandNav {
+  -webkit-animation: expandNavKeyframe .2s;
+          animation: expandNavKeyframe .2s;
+}
+
+.compressNav {
+  -webkit-animation: compressNavKeyframe .2s;
+          animation: compressNavKeyframe .2s;
+}
+
+.rotateArrow {
+  -webkit-animation: rotateArrowKeyframe .2s;
+          animation: rotateArrowKeyframe .2s;
+}
+
+.resetArrow {
+  -webkit-animation: resetArrowKeyframe .2s;
+          animation: resetArrowKeyframe .2s;
+}
+
+.showSearchInput {
+  -webkit-animation: showSearchInputKeyframe .5s;
+          animation: showSearchInputKeyframe .5s;
+}
+
+.hideSearchInput {
+  -webkit-animation: hideSearchInputKeyframe .5s;
+          animation: hideSearchInputKeyframe .5s;
+}
+
+@-webkit-keyframes hideLeftColumnKeyframe {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -300px;
+  }
+}
+
+@keyframes hideLeftColumnKeyframe {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -300px;
+  }
+}
+
+@-webkit-keyframes showLeftColumnKeyframe {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes showLeftColumnKeyframe {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes expandRightColumnKeyframe {
+  0% {
+    padding-left: 250px;
+  }
+  100% {
+    padding-left: 0px;
+  }
+}
+
+@keyframes expandRightColumnKeyframe {
+  0% {
+    padding-left: 250px;
+  }
+  100% {
+    padding-left: 0px;
+  }
+}
+
+@-webkit-keyframes compressRightColumnKeyframe {
+  0% {
+    padding-left: 0px;
+  }
+  100% {
+    padding-left: 250px;
+  }
+}
+
+@keyframes compressRightColumnKeyframe {
+  0% {
+    padding-left: 0px;
+  }
+  100% {
+    padding-left: 250px;
+  }
+}
+
+@-webkit-keyframes expandNavKeyframe {
+  0% {
+    width: calc(100% - 250px);
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes expandNavKeyframe {
+  0% {
+    width: calc(100% - 250px);
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes compressNavKeyframe {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: calc(100% - 250px);
+  }
+}
+
+@keyframes compressNavKeyframe {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: calc(100% - 250px);
+  }
+}
+
+@-webkit-keyframes rotateArrowKeyframe {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@keyframes rotateArrowKeyframe {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@-webkit-keyframes resetArrowKeyframe {
+  from {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes resetArrowKeyframe {
+  from {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes showSearchInputKeyframe {
+  0% {
+    width: 0px;
+  }
+  to {
+    width: 200px;
+  }
+}
+
+@keyframes showSearchInputKeyframe {
+  0% {
+    width: 0px;
+  }
+  to {
+    width: 200px;
+  }
+}
+
+@-webkit-keyframes hideSearchInputKeyframe {
+  0% {
+    width: 200px;
+  }
+  to {
+    width: 0px;
+  }
+}
+
+@keyframes hideSearchInputKeyframe {
+  0% {
+    width: 200px;
+  }
+  to {
+    width: 0px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

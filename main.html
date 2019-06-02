@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <script src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="left-column">
+            <div id="section-1">
+                <a href="main.html">
+                    <div class="row" id="section-1-row-1">
+                        <img src="img\logo.png">
+                        <h5>Helpdesk Norberto</h5>
+                    </div>
+                </a>
+                <div class="row" id="section-1-row-2">
+                    <p class="grey-text text-lighten-1">Versão: Última (1.0.0)</p>
+                </div>
+            </div>
+            <div id="section-2">
+                <div class="container">
+                    <p class="list-heading">Seções</p>
+                    <ul>
+                        <li><a class="navigation" href="content-section-1">Responder Chamado</a></li>
+                        <li><a class="navigation" href="content-section-2">Cadastro de usuário</a></li>
+                        <li><a class="navigation" href="content-section-3">Exclusão de usuário</a></li>
+                        <li><a class="navigation" href="#login">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="right-column">
+            <nav class="z-depth-0">
+                <div class="nav-wrapper">
+                    <div class="row">
+                        <div class="col s1">
+                            <i class="fas fa-angle-double-left fa-lg" onclick="hideLeftNavAndExpandRightCol(event)"></i>
+                        </div>
+                        <div class="col s11">
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                <li><i class="fas fa-search fa-lg"></i></a></li>
+                                <li><input placeholder="Buscar texto na página" type="text" name="search" id="search">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="content" class="content">
+                <div class="container grey-text text-darken-3" id="intro">
+
+                    <h5>Bem vindo ao sistema de Helpdesk</h5>
+
+                    <p>Para começar selecione uma das ações no menu lateral esquerdo</p>
+                    <p>Este projeto foi feito como trabalho de uma matéria que eu não lembro o nome para o professor
+                        Norbero Savioli</p>
+                    <p>Técnologias utilizadas: </p>
+                    <p>HTML5, VanillaJS (ECMAScript6+), SASS (CSS3 + Materialize), site montado em formato SPA e MVC</p>
+
+                </div>
+            </div>
+
+            <footer id="footer" class="page-footer fixedFooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h5 class="grey-text text-darken-2">Suporte Helpdesk</h5>
+                            <p class="grey-text text-darken-2">Caso tenha alguma dúvida ou problema com a aplicação
+                                entre em contato e solicite atendimento.</p>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="grey-text text-darken-2">Contato</h5>
+                            <ul>
+                                <li><a class="grey-text text-darken-3">Segunda a Sexta</a></li>
+                                <li><a class="grey-text text-darken-3">17:30 às 23:00</a></li>
+                                <li><a class="grey-text text-darken-3" href="mailto:gfmaximo97@gmail.com">Email:
+                                        gfmaximo97@gmail.com</a></li>
+                                <li><a class="grey-text text-darken-3" href="tel:11-24485611">Telefone: (11)
+                                        98538-3817</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container grey-text text-darken-2 center-align">
+                        Gustavo Máximo, Bruno Henrique, Glaucio Brolo, Claison Ruan © 2019<span id="copyrightYear"></span> - Todos os direitos reservados
+                        <!-- <a class="grey-text text-lighten-4 right" href="https://iv2.com.br" target="_blank">Site Grupo Iv2</a> -->
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="lib/materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="lib/fontawesome/js/all.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<div class="content-section content-section-1" id="content-section-1">
+    <div class="heading card-panel grey-text text-lighten-3 blue lighten-1">
+        <h3>Responder Chamado</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="userData" class="card-panel blue lighten-5 grey-text text-darken-2">
+                    <h4>Dados do chamado</h4>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input disabled id="name" type="text" class="validate">
+                            <label for="name">Nome completo</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input disabled id="email_inline" type="email" class="validate">
+                            <label for="email_inline">E-mail</label>
+                            <span class="helper-text" data-error="Por favor insira um e-mail válido"
+                                data-success="Correto"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input disabled id="phone" type="text" class="validate">
+                            <label for="phone">Telefone</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input disabled id="priority" type="text" class="validate">
+                            <label for="priority">Telefone</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea disabled id="problem" class="materialize-textarea validate"></textarea>
+                            <label for="problem">Problema</label>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="helpdeskResponse">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="solution" type="text" class="validate"></input>
+                            <label for="solution">Solução</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="status" type="text" class="validate"></input>
+                            <label for="status">Status</label>
+                        </div>
+                    </div>
+                    <div class="row flex">
+                        <button id="sendBtn" class="btn blue waves-effect waves-light" type="submit"
+                            name="action">Enviar
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
